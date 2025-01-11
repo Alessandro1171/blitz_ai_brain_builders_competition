@@ -5944,3 +5944,661 @@
     at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
 [ERROR] 2025-01-11T17:50:49.956Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
     at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T17:58:37.285Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:02:42.699Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processTimers (node:internal/timers:504:9)
+[ERROR] 2025-01-11T18:04:56.127Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processTimers (node:internal/timers:504:9)
+[ERROR] 2025-01-11T18:06:06.918Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:08:21.353Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:10:03.230Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:11:07.969Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:18:08.824Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:18:24.440Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:20:41.851Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:21:18.852Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:18.854Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:18.856Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:18.858Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:18.950Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:18.951Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:18.953Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:18.954Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.047Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.048Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.048Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.049Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.126Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.126Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.127Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.128Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.215Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.215Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.216Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.217Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.217Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.217Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.307Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.308Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.308Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.310Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.310Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.310Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.393Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.393Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.393Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.394Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.394Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.395Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.472Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.473Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.473Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.474Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.474Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.475Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.553Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.554Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.554Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.555Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.555Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.555Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.627Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.628Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.631Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.631Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.632Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.632Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.700Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.700Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.701Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.701Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.701Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.702Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.790Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.791Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.792Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.793Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.793Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.794Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.880Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.881Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.881Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.882Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.882Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.882Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:19.953Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.954Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:19.954Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:19.956Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:19.956Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:19.957Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.041Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.042Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.043Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:20.044Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:20.044Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:20.045Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.129Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.129Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.130Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:20.130Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:20.131Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:20.131Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.205Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.205Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.206Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:20.206Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:20.206Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:20.207Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.281Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.282Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.282Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:20.283Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:20.284Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:20.284Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.369Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.370Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.371Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:20.372Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:20.373Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:20.373Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.449Z: Error applying action '{"characterId":"1914","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.450Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.450Z: Error applying action '{"characterId":"1912","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:21:20.451Z: Team '([Team] 38bc34c3-0d66-4895-af16-82e2e29f3ee2 - MyPythonicBot)' error: Error: {"characterId":"1912","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1912 is dead
+[ERROR] 2025-01-11T18:21:20.452Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1914","type":"MOVE_LEFT"} Error: Cannot take action: Character 1914 is dead
+[ERROR] 2025-01-11T18:21:20.452Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.536Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.536Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.616Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.616Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.705Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.707Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:20.799Z: Error applying action '{"characterId":"1915","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:21:20.800Z: Team '([Team] 4e472c0b-61db-411c-a984-18109aa5d0f5 - MyPythonicBot)' error: Error: {"characterId":"1915","type":"MOVE_LEFT"} Error: Cannot take action: Character 1915 is dead
+[ERROR] 2025-01-11T18:21:21.395Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:27:09.772Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:09.774Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:09.774Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:09.775Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:09.852Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:09.853Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:09.853Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:09.854Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:09.925Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:09.926Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:09.927Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:09.927Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.014Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.015Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.016Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.016Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.100Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.101Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.102Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.102Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.103Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.104Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.174Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.175Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.176Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.178Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.178Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.179Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.267Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.267Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.268Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.269Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.269Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.270Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.344Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.345Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.345Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.346Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.346Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.346Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.422Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.423Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.424Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.424Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.425Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.425Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.498Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.499Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.499Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.500Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.500Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.500Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.576Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.577Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.578Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.578Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.579Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.579Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.655Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.657Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.658Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.658Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.659Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.659Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.734Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.735Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.736Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.737Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.737Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.738Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.844Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.845Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.846Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.848Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.849Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.850Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.921Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.922Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:10.923Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:10.924Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:10.924Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:10.924Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:10.999Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.000Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.001Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:11.003Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:11.005Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:11.006Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:11.088Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.089Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.089Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:11.091Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:11.092Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:11.092Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:11.176Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.177Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.177Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:11.178Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:11.178Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:11.178Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:11.246Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.247Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.247Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:11.248Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:11.249Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:11.249Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:11.336Z: Error applying action '{"characterId":"1962","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.337Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.338Z: Error applying action '{"characterId":"1960","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:27:11.340Z: Team '([Team] 247c5a25-5428-4c33-a1af-1180a256f85e - MyPythonicBot)' error: Error: {"characterId":"1960","type":"MOVE_RIGHT"} Error: Cannot take action: Character 1960 is dead
+[ERROR] 2025-01-11T18:27:11.341Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1962","type":"MOVE_LEFT"} Error: Cannot take action: Character 1962 is dead
+[ERROR] 2025-01-11T18:27:11.342Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:11.426Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.427Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:11.495Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.496Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:11.586Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.587Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:11.692Z: Error applying action '{"characterId":"1963","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:27:11.693Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_LEFT"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:13.433Z: Error applying action '{"characterId":"1963","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:27:13.434Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_UP"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:13.518Z: Error applying action '{"characterId":"1963","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:27:13.522Z: Team '([Team] 0dab1793-568d-43d5-864a-995257331327 - MyPythonicBot)' error: Error: {"characterId":"1963","type":"MOVE_UP"} Error: Cannot take action: Character 1963 is dead
+[ERROR] 2025-01-11T18:27:13.659Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:28:02.550Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:31:23.223Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.226Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.313Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.314Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.395Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.395Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.468Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.469Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.549Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.550Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.623Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.624Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.698Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.699Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.785Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.786Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.872Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.873Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:23.945Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:23.946Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.022Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.023Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.106Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.107Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.183Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.183Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.293Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.296Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.387Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.388Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.474Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.475Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.558Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.559Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.640Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.641Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.722Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.723Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:24.825Z: Error applying action '{"characterId":"2037","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:24.827Z: Team '([Team] 575b5a91-2724-4770-ba3d-5c0569a9be70 - MyPythonicBot)' error: Error: {"characterId":"2037","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2037 is dead
+[ERROR] 2025-01-11T18:31:28.239Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T18:31:35.650Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:35.651Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:35.654Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:35.655Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:35.750Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:35.751Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:35.752Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:35.753Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:35.837Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:35.837Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:35.838Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:35.839Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:35.933Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:35.934Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:35.936Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:35.937Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.022Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.022Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.023Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.023Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.024Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.024Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.092Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.093Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.093Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.094Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.094Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.095Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.171Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.172Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.173Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.173Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.173Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.174Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.257Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.258Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.258Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.259Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.260Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.260Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.342Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.342Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.343Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.343Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.344Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.347Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.417Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.417Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.418Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.420Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.420Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.421Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.506Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.507Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.508Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.508Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.508Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.509Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.592Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.592Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.593Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.596Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.596Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.597Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.675Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.675Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.676Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.676Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.677Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.677Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.768Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.769Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.770Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.771Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.772Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.772Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.854Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.855Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.856Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.857Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.857Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.858Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:36.941Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.942Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:36.943Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:36.943Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:36.943Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:36.944Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:37.026Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.027Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.027Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:37.028Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:37.029Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:37.029Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:37.097Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.098Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.099Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:37.100Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:37.101Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:37.101Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:37.181Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.181Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.182Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:37.183Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:37.184Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:37.184Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:37.273Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.273Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.274Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:37.274Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:37.275Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:37.275Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:37.349Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.351Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:37.430Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.431Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:37.502Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.504Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:37.584Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:37.586Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:38.491Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:38.491Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:38.492Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:38.493Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:38.588Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:38.591Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:38.592Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:38.593Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:38.679Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:38.680Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:38.681Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:38.682Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:38.774Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:38.775Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:38.778Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:38.778Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:38.871Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:38.872Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:38.872Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:38.873Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:38.982Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:38.983Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:38.984Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:38.985Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.083Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.085Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.086Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.086Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.179Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.180Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.181Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.182Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.283Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.285Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.287Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.288Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.379Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.380Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.382Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.384Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.481Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.482Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.483Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.484Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.485Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.486Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:39.577Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.578Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.579Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.580Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.581Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.582Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:39.677Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.677Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.678Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.681Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.682Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.683Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:39.788Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.789Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.791Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.793Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.793Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.794Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:39.895Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.896Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.896Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.898Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.899Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.900Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:39.995Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.995Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:39.996Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:39.996Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:39.997Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:39.997Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.100Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.101Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.102Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:40.103Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:40.104Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:40.105Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.207Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.208Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.209Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:40.211Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:40.212Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:40.213Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.311Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.312Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.314Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:40.316Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:40.316Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:40.317Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.422Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.423Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.424Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:40.426Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:40.427Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:40.428Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.538Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.541Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.639Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.640Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.753Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.755Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.844Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.846Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:40.941Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:40.942Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:41.055Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:41.056Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:41.160Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:41.161Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:41.248Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:41.249Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:41.342Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:41.343Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:41.447Z: Error applying action '{"characterId":"2088","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:41.447Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_LEFT"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:41.948Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:41.949Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:41.950Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:41.950Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:42.055Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:42.056Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:42.058Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:42.060Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:42.177Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:42.179Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:42.181Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:42.181Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:42.294Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:42.295Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:42.296Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:42.297Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:42.424Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:42.426Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:42.427Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:42.427Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:42.547Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:42.548Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:42.549Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:42.551Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:42.672Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:42.674Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:42.675Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:42.676Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:42.797Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:42.798Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:42.799Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:42.800Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:42.922Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:42.923Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:42.925Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:42.926Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:43.047Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:43.048Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.049Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:43.050Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:43.165Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:43.166Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.167Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:43.168Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:43.293Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:43.295Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.296Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:43.297Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:43.412Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:43.413Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.415Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:43.416Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:43.546Z: Error applying action '{"characterId":"2087","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T18:31:43.547Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.549Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:43.550Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2087","type":"MOVE_LEFT"} Error: Cannot take action: Character 2087 is dead
+[ERROR] 2025-01-11T18:31:43.645Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.646Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:43.770Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.772Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:43.873Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.874Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:43.982Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:43.984Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:44.110Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:44.112Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:44.208Z: Error applying action '{"characterId":"2085","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T18:31:44.209Z: Team '([Team] b2f7ea1c-48fd-4a4b-97e7-b2f10bb600fe - MyPythonicBot)' error: Error: {"characterId":"2085","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2085 is dead
+[ERROR] 2025-01-11T18:31:48.969Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:48.971Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.057Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.058Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.154Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.155Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.272Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.273Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.377Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.379Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.488Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.490Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.602Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.605Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.695Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.696Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.796Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.798Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.895Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.896Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:49.989Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:49.989Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:50.096Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:50.098Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:50.208Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:50.210Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:50.325Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:50.327Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:50.441Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:50.443Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:50.557Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:50.558Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
+[ERROR] 2025-01-11T18:31:50.666Z: Error applying action '{"characterId":"2088","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T18:31:50.667Z: Team '([Team] adec3f73-6e8c-4ca4-9c68-911899983d12 - MyPythonicBot)' error: Error: {"characterId":"2088","type":"MOVE_UP"} Error: Cannot take action: Character 2088 is dead
