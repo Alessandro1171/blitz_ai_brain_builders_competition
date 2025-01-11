@@ -8724,3 +8724,287 @@
     at Timeout._onTimeout (C:\snapshot\blitz-2025\engine\dist\engine.js)
     at listOnTimeout (node:internal/timers:564:17)
     at process.processTimers (node:internal/timers:507:7)
+[ERROR] 2025-01-11T19:17:06.534Z: An error occurred while playing the game. Max wait time for the game to start of 500000 ms exceeded but no teams were registered. Error: Max wait time for the game to start of 500000 ms exceeded but no teams were registered.
+    at Timeout._onTimeout (C:\snapshot\blitz-2025\engine\dist\engine.js)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[ERROR] 2025-01-11T19:20:09.946Z: Error applying action '{"characterId":"2488","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:20:09.950Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2488","type":"MOVE_LEFT"} Error: Cannot take action: Character 2488 is dead
+[ERROR] 2025-01-11T19:20:10.432Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:10.436Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:10.514Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:10.515Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:10.604Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:10.604Z: Error applying action '{"characterId":"2488","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T19:20:10.605Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:10.606Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2488","type":"MOVE_UP"} Error: Cannot take action: Character 2488 is dead
+[ERROR] 2025-01-11T19:20:10.685Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:10.686Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:10.770Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:10.774Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:10.861Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:10.862Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:10.942Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:10.943Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.027Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.028Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.111Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.113Z: Error applying action '{"characterId":"2488","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:20:11.115Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.115Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2488","type":"MOVE_LEFT"} Error: Cannot take action: Character 2488 is dead
+[ERROR] 2025-01-11T19:20:11.187Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.188Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.271Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.272Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.345Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.348Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.419Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.421Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.504Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.505Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.575Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.576Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.652Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.653Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.751Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.752Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.850Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.851Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:11.952Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:11.953Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.051Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.052Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.150Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.151Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.233Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.235Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.340Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.340Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.435Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.436Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.535Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.537Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.631Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.633Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.730Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.733Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.830Z: Error applying action '{"characterId":"2486","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:12.834Z: Error applying action '{"characterId":"2487","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:20:12.837Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:12.839Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"MOVE_LEFT"} Error: Cannot take action: Character 2487 is dead
+[ERROR] 2025-01-11T19:20:12.953Z: Error applying action '{"characterId":"2486","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T19:20:12.955Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2486 is dead
+[ERROR] 2025-01-11T19:20:13.354Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:13.356Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:13.467Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:13.468Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:13.565Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:13.566Z: Error applying action '{"characterId":"2487","type":"MOVE_DOWN"}'
+[ERROR] 2025-01-11T19:20:13.567Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:13.567Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"MOVE_DOWN"} Error: Cannot take action: Character 2487 is dead
+[ERROR] 2025-01-11T19:20:13.669Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:13.671Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:13.762Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:13.763Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:13.860Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:13.861Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:13.993Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:13.996Z: Error applying action '{"characterId":"2486","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T19:20:14.001Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:14.002Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2486 is dead
+[ERROR] 2025-01-11T19:20:14.119Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:14.121Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:14.244Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:14.246Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:14.363Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:14.367Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:14.491Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:14.493Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:14.619Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:14.624Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:14.742Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:14.745Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:14.840Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:14.841Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:14.942Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:14.947Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.054Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.058Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.155Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.156Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.274Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.308Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.442Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.443Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.550Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.553Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.653Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.654Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.749Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.750Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.871Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.873Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:15.978Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:15.982Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:16.093Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:16.094Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:16.219Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:16.220Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:16.318Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:16.319Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:16.422Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:16.423Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:16.533Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:16.534Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:16.651Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:16.653Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:16.767Z: Error applying action '{"characterId":"2485","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:16.771Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:16.890Z: Error applying action '{"characterId":"2485","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T19:20:16.892Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2485 is dead
+[ERROR] 2025-01-11T19:20:17.620Z: Error applying action '{"characterId":"2485","type":"MOVE_DOWN"}'
+[ERROR] 2025-01-11T19:20:17.621Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"MOVE_DOWN"} Error: Cannot take action: Character 2485 is dead
+[ERROR] 2025-01-11T19:20:17.976Z: Error applying action '{"characterId":"2485","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T19:20:17.977Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2485 is dead
+[ERROR] 2025-01-11T19:20:18.659Z: Error applying action '{"characterId":"2485","type":"MOVE_DOWN"}'
+[ERROR] 2025-01-11T19:20:18.660Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2485","type":"MOVE_DOWN"} Error: Cannot take action: Character 2485 is dead
+[ERROR] 2025-01-11T19:20:18.952Z: Error applying action '{"characterId":"2487","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:18.953Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:19.057Z: Error applying action '{"characterId":"2487","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:19.059Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:19.152Z: Error applying action '{"characterId":"2487","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:19.156Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:19.245Z: Error applying action '{"characterId":"2487","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:19.246Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:19.338Z: Error applying action '{"characterId":"2487","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:19.339Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:19.439Z: Error applying action '{"characterId":"2487","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:19.440Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:19.528Z: Error applying action '{"characterId":"2487","type":"DROP"}'
+[ERROR] 2025-01-11T19:20:19.530Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:20:19.628Z: Error applying action '{"characterId":"2487","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:20:19.629Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"MOVE_LEFT"} Error: Cannot take action: Character 2487 is dead
+[ERROR] 2025-01-11T19:20:20.216Z: Error applying action '{"characterId":"2486","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T19:20:20.217Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"MOVE_UP"} Error: Cannot take action: Character 2486 is dead
+[ERROR] 2025-01-11T19:20:20.305Z: Error applying action '{"characterId":"2487","type":"MOVE_DOWN"}'
+[ERROR] 2025-01-11T19:20:20.306Z: Team '([Team] a008358f-02f8-400f-ad73-06b7cb826b9b - MyPythonicBot)' error: Error: {"characterId":"2487","type":"MOVE_DOWN"} Error: Cannot take action: Character 2487 is dead
+[ERROR] 2025-01-11T19:20:20.407Z: Error applying action '{"characterId":"2486","type":"MOVE_RIGHT"}'
+[ERROR] 2025-01-11T19:20:20.408Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"MOVE_RIGHT"} Error: Cannot take action: Character 2486 is dead
+[ERROR] 2025-01-11T19:20:21.195Z: Error applying action '{"characterId":"2486","type":"MOVE_UP"}'
+[ERROR] 2025-01-11T19:20:21.196Z: Team '([Team] 6478e24e-5c69-48bf-8e3e-df1fbc0ab660 - MyPythonicBot)' error: Error: {"characterId":"2486","type":"MOVE_UP"} Error: Cannot take action: Character 2486 is dead
+[ERROR] 2025-01-11T19:20:21.334Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T19:25:27.057Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:27.077Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:27.200Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:27.202Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:27.319Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:27.321Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:27.432Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:27.433Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:27.549Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:27.550Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:27.675Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:27.676Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:27.806Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:27.808Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:27.918Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:27.920Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.034Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.036Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.157Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.158Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.282Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.285Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.394Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.398Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.510Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.519Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.646Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.650Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.767Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.769Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.878Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.881Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:28.993Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:28.996Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.104Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.105Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.210Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.213Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.333Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.335Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.434Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.434Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.553Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.554Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.660Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.662Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.789Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.791Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.883Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.885Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:29.969Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:29.970Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.063Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.064Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.161Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.162Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.263Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.265Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.367Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.368Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.452Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.453Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.565Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.566Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.678Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.680Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.775Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.778Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.865Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.866Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:30.968Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:30.969Z: Error applying action '{"characterId":"2510","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:25:30.970Z: Team '([Team] 094ca166-b92d-46ef-943f-c3baf6285a3c - MyPythonicBot)' error: Error: {"characterId":"2510","type":"MOVE_LEFT"} Error: Cannot take action: Character 2510 is dead
+[ERROR] 2025-01-11T19:25:30.970Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.069Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.070Z: Error applying action '{"characterId":"2510","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:25:31.071Z: Team '([Team] 094ca166-b92d-46ef-943f-c3baf6285a3c - MyPythonicBot)' error: Error: {"characterId":"2510","type":"MOVE_LEFT"} Error: Cannot take action: Character 2510 is dead
+[ERROR] 2025-01-11T19:25:31.071Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.173Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.174Z: Error applying action '{"characterId":"2510","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:25:31.175Z: Team '([Team] 094ca166-b92d-46ef-943f-c3baf6285a3c - MyPythonicBot)' error: Error: {"characterId":"2510","type":"MOVE_LEFT"} Error: Cannot take action: Character 2510 is dead
+[ERROR] 2025-01-11T19:25:31.175Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.268Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.269Z: Error applying action '{"characterId":"2510","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:25:31.270Z: Team '([Team] 094ca166-b92d-46ef-943f-c3baf6285a3c - MyPythonicBot)' error: Error: {"characterId":"2510","type":"MOVE_LEFT"} Error: Cannot take action: Character 2510 is dead
+[ERROR] 2025-01-11T19:25:31.271Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.367Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.368Z: Error applying action '{"characterId":"2510","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:25:31.369Z: Team '([Team] 094ca166-b92d-46ef-943f-c3baf6285a3c - MyPythonicBot)' error: Error: {"characterId":"2510","type":"MOVE_LEFT"} Error: Cannot take action: Character 2510 is dead
+[ERROR] 2025-01-11T19:25:31.369Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.450Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.451Z: Error applying action '{"characterId":"2510","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:25:31.452Z: Team '([Team] 094ca166-b92d-46ef-943f-c3baf6285a3c - MyPythonicBot)' error: Error: {"characterId":"2510","type":"MOVE_LEFT"} Error: Cannot take action: Character 2510 is dead
+[ERROR] 2025-01-11T19:25:31.452Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.533Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.533Z: Error applying action '{"characterId":"2510","type":"MOVE_LEFT"}'
+[ERROR] 2025-01-11T19:25:31.534Z: Team '([Team] 094ca166-b92d-46ef-943f-c3baf6285a3c - MyPythonicBot)' error: Error: {"characterId":"2510","type":"MOVE_LEFT"} Error: Cannot take action: Character 2510 is dead
+[ERROR] 2025-01-11T19:25:31.534Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.643Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.645Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.740Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.741Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.837Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.838Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:31.931Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:31.932Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:32.043Z: Error applying action '{"characterId":"2513","type":"DROP"}'
+[ERROR] 2025-01-11T19:25:32.044Z: Team '([Team] 7415ced7-e3ac-4ab8-bb5d-3ea018c637bc - MyPythonicBot)' error: Error: {"characterId":"2513","type":"DROP"} Error: Pellet already present at this position
+[ERROR] 2025-01-11T19:25:32.194Z: An error occurred while playing the game. Closing game as no more teams are responding Error: Closing game as no more teams are responding
+    at Engine.play (C:\snapshot\blitz-2025\engine\dist\engine.js)
+[ERROR] 2025-01-11T19:33:52.305Z: An error occurred while playing the game. Max wait time for the game to start of 500000 ms exceeded but no teams were registered. Error: Max wait time for the game to start of 500000 ms exceeded but no teams were registered.
+    at Timeout._onTimeout (C:\snapshot\blitz-2025\engine\dist\engine.js)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
