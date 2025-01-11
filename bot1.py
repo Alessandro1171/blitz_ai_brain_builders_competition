@@ -60,12 +60,22 @@ class Bot:
         # Calculate dangerous zones from all threats
         for item in game_message.items:
             position = item.position
-            if game_message.teamZoneGrid[position.x][position.y] == "" and (
-                    item.type == "blitzium_core" or item.type == "blitzium_ingot" or item.type == "blitzium_nugget"):
+            if game_message.teamZoneGrid[position.x][position.y] == "" and item.type.startswith("blitzium"):
                 all_neutral_minerals.add((position.x, position.y))
 
         return all_neutral_minerals
+    def find_blitziums_hostile(self, game_message: TeamGameState) -> Set[Tuple[int, int]]:
+        """Identify mineral positions on neutral territory on the map"""
+        all_hostile_minerals = set()
 
+        # Calculate dangerous zones from all threats
+        for item in game_message.items:
+            position = item.position
+            if game_message.teamZoneGrid[position.x][position.y] != "" and game_message.teamZoneGrid[position.x][position.y] != game_message.currentTeamId and (
+                    item.type.startswith("blitzium")):
+                all_hostile_minerals.add((position.x, position.y))
+
+        return all_hostile_minerals
     def find_minerals_friendly(self, game_message: TeamGameState):
         """Identify mineral positions on neutral territory on the map"""
         all_friendly_minerals = set()
@@ -277,6 +287,7 @@ class Bot:
             current_pos = (character.position.x, character.position.y)
             neutral_minerals = self.find_blitziums_neutral(game_message)
             red_minerals = self.find_radiant_hostile(game_message)
+            hostile_minerals = self.find_blitziums_hostile(game_message)
             self.find_minerals_friendly(game_message)
             self.find_minerals_enemy(game_message)
             if character.numberOfCarriedItems > 0 and (
@@ -327,7 +338,7 @@ game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != game_message.curren
                 else:
                     print(f"moving")
                     if character.id not in self.current_path or len(self.current_path[character.id])<2:
-                        if len(neutral_minerals) > 0:
+                        if len(neutral_minerals) > 0 or character.numberOfCarriedItems > 0 and character.carriedItems[0].type.startswith("blitzium"):
                             print("fetching blitzium")
                             if character.numberOfCarriedItems > 0 and character.carriedItems[0].type.startswith("blitzium"):
                                 player_zones = self.find_player_empty_squares(game_message)
@@ -339,7 +350,7 @@ game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != game_message.curren
                                 self.current_path[character.id] = self.find_optimal_path_mineral(current_pos,
                                                                                                  neutral_minerals,
                                                                                                  game_message)
-                        elif len(red_minerals) > 0:
+                        elif len(red_minerals) > 0 or character.numberOfCarriedItems > 0 and character.carriedItems[0].type.startswith("radiant"):
                             print("fetching radiant")
                             if character.numberOfCarriedItems > 0 and character.carriedItems[0].type.startswith("radiant"):
                                 print(f"transporting radiant to enemy zone")
@@ -350,6 +361,18 @@ game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != game_message.curren
                                 print("don't have radiant")
                                 # print(f"location of radiants on player territory:{red_minerals}")
                                 self.current_path[character.id] = self.find_optimal_path_mineral(current_pos, red_minerals,
+                                                                                                game_message)
+                        elif len(hostile_minerals) > 0 or character.numberOfCarriedItems > 0 and character.carriedItems[0].type.startswith("blitzium"):
+                            print("stealing blitzium")
+                            if character.numberOfCarriedItems > 0 and character.carriedItems[0].type.startswith("blitzium"):
+                                player_zones = self.find_player_empty_squares(game_message)
+                                print(f"transporting blitzium to friendly zone")
+                                self.current_path[character.id] = self.find_optimal_path_team_zone(current_pos,
+                                                                                                   player_zones,
+                                                                                                   game_message)
+                            else:
+                                self.current_path[character.id] = self.find_optimal_path_mineral(current_pos,
+                                                                                                 hostile_minerals,
                                                                                                  game_message)
                         print(f"current_path for {character.id}:{self.current_path[character.id]}")
 
