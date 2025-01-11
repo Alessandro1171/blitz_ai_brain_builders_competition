@@ -433,3 +433,5 @@ game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != game_message.curren
 
         # You can clearly do better than the random actions above! Have fun!
         return actions
+# test comment
+#other comment
