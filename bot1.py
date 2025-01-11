@@ -43,6 +43,7 @@ class Bot:
                 dangerous_positions.add((tx + dx, ty + dy))
 
         return dangerous_positions
+
     def findAllItemLocation(self, game_message: TeamGameState) -> dict:
         """Identify mineral positions on neutral territory on the map"""
         mineral_locations = {}
@@ -51,6 +52,7 @@ class Bot:
             mineral_locations[f"x:{item.position.x}, y:{item.position.y}"] = item.type
         print(f"mineral_locations:{mineral_locations}")
         return mineral_locations
+
     def find_blitziums_neutral(self, game_message: TeamGameState) -> Set[Tuple[int, int]]:
         """Identify mineral positions on neutral territory on the map"""
         all_neutral_minerals = set()
@@ -63,10 +65,10 @@ class Bot:
                 all_neutral_minerals.add((position.x, position.y))
 
         return all_neutral_minerals
+
     def find_minerals_friendly(self, game_message: TeamGameState):
         """Identify mineral positions on neutral territory on the map"""
         all_friendly_minerals = set()
-
 
         for item in game_message.items:
             position = item.position
@@ -81,10 +83,12 @@ class Bot:
 
         for item in game_message.items:
             position = item.position
-            if game_message.teamZoneGrid[position.x][position.y] != game_message.currentTeamId and game_message.teamZoneGrid[position.x][position.y] !="":
+            if game_message.teamZoneGrid[position.x][position.y] != game_message.currentTeamId and \
+                    game_message.teamZoneGrid[position.x][position.y] != "":
                 all_friendly_minerals.add((position.x, position.y))
 
         self.enemy_items_locations = all_friendly_minerals
+
     def find_radiant_hostile(self, game_message: TeamGameState) -> Set[Tuple[int, int]]:
         """Identify mineral positions on neutral territory on the map"""
         all_hostile_minerals = set()
@@ -101,12 +105,12 @@ class Bot:
     def find_player_empty_squares(self, game_message: TeamGameState) -> Set[Tuple[int, int]]:
         """Identify mineral positions on neutral territory on the map"""
         player_zones = set()
-
+        print("looking for player squares")
         # get all friendly cordiantes
         for i in range(0, len(game_message.teamZoneGrid)):
             for j in range(0, len(game_message.teamZoneGrid[i])):
                 if (game_message.teamZoneGrid[i][j] == game_message.currentTeamId and
-                        game_message.map.tiles[i][j] == "Empty" and ((i, j) not in self.player_items_locations)):
+                        game_message.map.tiles[i][j] == TileType.EMPTY and ((i, j) not in self.player_items_locations)):
                     player_zones.add((i, j))
 
         return player_zones
@@ -114,13 +118,13 @@ class Bot:
     def find_enemy_empty_squares(self, game_message: TeamGameState) -> Set[Tuple[int, int]]:
         """Identify mineral positions on neutral territory on the map"""
         enemy_zones = set()
-
+        print("looking for enemy squares")
         # get all friendly cordiantes
         for i in range(0, len(game_message.teamZoneGrid)):
             for j in range(0, len(game_message.teamZoneGrid[i])):
                 if (game_message.teamZoneGrid[i][j] != "" and game_message.teamZoneGrid[i][
                     j] != game_message.currentTeamId and
-                        game_message.map.tiles[i][j] == "Empty" and ((i, j) not in self.enemy_items_locations)):
+                        game_message.map.tiles[i][j] == TileType.EMPTY and ((i, j) not in self.enemy_items_locations)):
                     enemy_zones.add((i, j))
 
         return enemy_zones
@@ -165,13 +169,12 @@ class Bot:
 
             # Base safety score
             position_safety = 100
-            
+
             # Reduce safety for positions near threats
             for threat in game_message.otherCharacters:
                 tx, ty = threat.position.x, threat.position.y
                 distance = abs(tx - x) + abs(ty - y)
                 position_safety -= 50 / (distance + 1)
-
 
             # Reduce safety for positions near walls
             wall_distance = min(
@@ -223,7 +226,7 @@ class Bot:
             path.append(current)
             current = came_from.get(current)
         path.reverse()
-        print(f"path:{path}")
+        print(f"find_optimal_path :{path}")
         return path
 
     def find_optimal_path_mineral(self, start: Tuple[int, int], target_zones: Set[Tuple[int, int]],
@@ -241,7 +244,7 @@ class Bot:
         return self.find_optimal_path(start, game_message, nearest_mineral)
 
     def find_optimal_path_team_zone(self, start: Tuple[int, int], target_zones: Set[Tuple[int, int]],
-                                      game_message: TeamGameState) -> List[Tuple[int, int]]:
+                                    game_message: TeamGameState) -> List[Tuple[int, int]]:
         """Find the safest path to the nearest safe zone using A* algorithm"""
         if not target_zones:
             return []
@@ -255,7 +258,6 @@ class Bot:
             return self.find_optimal_path(start, game_message, sorted_coordinates[4])
         else:
             return self.find_optimal_path(start, game_message, sorted_coordinates[(len(sorted_coordinates) - 1)])
-
 
     def checkSafteyOfPath(self, current_path: List, safe_zones: List):
         for step in current_path:
@@ -275,13 +277,17 @@ class Bot:
             red_minerals = self.find_radiant_hostile(game_message)
             self.find_minerals_friendly(game_message)
             self.find_minerals_enemy(game_message)
-            if character.numberOfCarriedItems>0 and (self.current_path[character.id] and len(self.current_path[character.id]) < 2):
+            if character.numberOfCarriedItems > 0 and (
+                    self.current_path[character.id] and len(self.current_path[character.id]) < 2):
                 print(f"dropping item")
-                if character.carriedItems[0].type.startswith("blitzium") and game_message.teamZoneGrid[current_pos[0]][current_pos[1]]==game_message.currentTeamId:
+                if character.carriedItems[0].type.startswith("blitzium") and game_message.teamZoneGrid[current_pos[0]][
+                    current_pos[1]] == game_message.currentTeamId:
                     actions.append(DropAction(characterId=character.id))
                     self.player_items_locations.add((current_pos[0], current_pos[1]))
                     print(f"blitzium droped")
-                elif character.carriedItems[0].type.startswith("radiant") and (game_message.teamZoneGrid[current_pos[0]][current_pos[1]]!="" and game_message.teamZoneGrid[current_pos[0]][current_pos[1]]!=game_message.currentTeamId):
+                elif character.carriedItems[0].type.startswith("radiant") and (
+                        game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != "" and
+                        game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != game_message.currentTeamId):
                     actions.append(DropAction(characterId=character.id))
                     self.enemy_items_locations.add((current_pos[0], current_pos[1]))
                     print(f"blitzium radiant")
@@ -289,14 +295,28 @@ class Bot:
                 item_locations = self.findAllItemLocation(game_message)
                 coordinates = f"x:{current_pos[0]}, y:{current_pos[1]}"
                 print(f"possible grab")
-                if coordinates in item_locations and game_message.teamZoneGrid[current_pos[0]][current_pos[1]]==game_message.currentTeamId and item_locations[coordinates].startswith("radiant"):
+                if coordinates in item_locations and game_message.teamZoneGrid[current_pos[0]][
+                    current_pos[1]] == game_message.currentTeamId and item_locations[coordinates].startswith("radiant"):
                     actions.append(GrabAction(characterId=character.id))
                     print(f"radiant grabed")
                     self.player_items_locations.remove((current_pos[0], current_pos[1]))
-                elif coordinates in item_locations and item_locations[coordinates].startswith("blitzium") and game_message.teamZoneGrid[current_pos[0]][current_pos[1]]!=game_message.currentTeamId:
+
+                    enemy_zones = self.find_enemy_empty_squares(game_message)
+                    print(f"enemy_zones:{enemy_zones}")
+                    self.current_path[character.id] = self.find_optimal_path_team_zone(current_pos, enemy_zones,
+                                                                                       game_message)
+                elif coordinates in item_locations and item_locations[coordinates].startswith("blitzium") and \
+                        game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != game_message.currentTeamId:
                     actions.append(GrabAction(characterId=character.id))
                     print(f"blitzium grabed")
-                    if game_message.teamZoneGrid[current_pos[0]][current_pos[1]]!=game_message.currentTeamId and game_message.teamZoneGrid[current_pos[0]][current_pos[1]]!="":
+
+                    player_zones = self.find_player_empty_squares(game_message)
+                    print(f"player_zones:{player_zones}")
+                    self.current_path[character.id] = self.find_optimal_path_team_zone(current_pos, player_zones,
+                                                                                       game_message)
+
+                    if game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != game_message.currentTeamId and \
+                            game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != "":
                         self.enemy_items_locations.remove((current_pos[0], current_pos[1]))
                 else:
                     print(f"moving")
@@ -305,10 +325,13 @@ class Bot:
                         if character.numberOfCarriedItems > 0 and character.carriedItems[0].type.startswith("blitzium"):
                             player_zones = self.find_player_empty_squares(game_message)
                             print(f"transporting blitzium to friendly zone")
-                            self.current_path[character.id] = self.find_optimal_path_team_zone(current_pos, player_zones,
-                                                                                                 game_message)
+                            self.current_path[character.id] = self.find_optimal_path_team_zone(current_pos,
+                                                                                               player_zones,
+                                                                                               game_message)
                         else:
-                            self.current_path[character.id] = self.find_optimal_path_mineral(current_pos, neutral_minerals,
+
+                            self.current_path[character.id] = self.find_optimal_path_mineral(current_pos,
+                                                                                             neutral_minerals,
                                                                                              game_message)
                     elif len(red_minerals) > 0:
                         print("fetching radiant")
@@ -316,10 +339,10 @@ class Bot:
                             print(f"transporting radiant to enemy zone")
                             enemy_zones = self.find_enemy_empty_squares(game_message)
                             self.current_path[character.id] = self.find_optimal_path_team_zone(current_pos, enemy_zones,
-                                                                                                 game_message)
+                                                                                               game_message)
                         else:
                             print("don't have radiant")
-                            #print(f"location of radiants on player territory:{red_minerals}")
+                            # print(f"location of radiants on player territory:{red_minerals}")
                             self.current_path[character.id] = self.find_optimal_path_mineral(current_pos, red_minerals,
                                                                                              game_message)
                     print(f"current_path for {character.id}:{self.current_path[character.id]}")
