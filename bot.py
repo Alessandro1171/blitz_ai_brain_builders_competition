@@ -223,7 +223,7 @@ class Bot:
 
                 if (0 <= next_pos[0] < game_message.map.width and
                         0 <= next_pos[1] < game_message.map.height and
-                        game_message.map.tiles[next_pos[0]][next_pos[1]] != TileType.WALL):
+                        game_message.map.tiles[next_pos[0]][next_pos[1]] != TileType.WALL and not self.is_other_character_here(game_message, Position(next_pos[0], next_pos[1]))):
 
                     new_cost = cost_so_far[current] + 1
                     if next_pos not in cost_so_far or new_cost < cost_so_far[next_pos]:
@@ -241,6 +241,12 @@ class Bot:
         path.reverse()
         print(f"path from {start} to {target_zone}  path:{path}")
         return path
+
+    def is_other_character_here(self, game_message: TeamGameState, position: Position):
+        for enemy in game_message.otherCharacters:
+            if position == enemy.position:
+                return True
+        return False
 
     def find_optimal_path_mineral(self, start: Tuple[int, int], target_zones: Set[Tuple[int, int]],
                                   game_message: TeamGameState) -> List[Tuple[int, int]]:
@@ -324,7 +330,7 @@ class Bot:
                         print(f"blitzium droped")
                     else:
                         print(f"finding closest free square")
-                #DROP 
+                #DROP
                 elif character.carriedItems[0].type.startswith("radiant") and (
                         game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != "" and
                         game_message.teamZoneGrid[current_pos[0]][current_pos[1]] != game_message.currentTeamId):
